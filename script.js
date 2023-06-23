@@ -3,7 +3,7 @@
 function palindrome(str){
 	let l = 0, r = str.length;
 	while(l < r) {
-		if (str.charAt(l)!==str.charAt(r)) {
+		if (str.charCodeAt(l)!=str.charCodeAt(r)) {
 			return false;
 		}
 	}
