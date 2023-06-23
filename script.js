@@ -6,6 +6,8 @@ function palindrome(str){
 		if (str.charCodeAt(l)!=str.charCodeAt(r)) {
 			return false;
 		}
+		l++;
+		r--;
 	}
 	return true;
 }
